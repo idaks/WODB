@@ -1,0 +1,18 @@
+property(fig1, color, red).
+property(fig1, shape, box).
+property(fig1, size, small).
+
+property(fig2, color, blue).
+property(fig2, shape, box).
+property(fig2, size, large).
+
+property(fig3, color, blue).
+property(fig3, shape, circle).
+property(fig3, size, large).
+
+property(fig4, color, red).
+property(fig4, shape, box).
+property(fig4, size, large).
+
+
+
