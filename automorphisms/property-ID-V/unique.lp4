@@ -1,0 +1,16 @@
+% Fig. X is unique wrt propertyvalue V, if there is no ..
+unique(F,V) :- property(F,V), not exists_diff(F,V).
+
+% .. other figure Y that has the same property/value pair: 
+exists_diff(F,V) :- property(F,V), property(F2,V), F != F2. 
+
+% Which figure F is special (wrt some property / value)
+special(F) :- unique(F,_).
+
+normal(F) :- property(F,_), not special(F).
+
+
+
+#show unique/2.
+#show special/1.
+#show normal/1.

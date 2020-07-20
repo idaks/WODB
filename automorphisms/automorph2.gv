@@ -1,0 +1,70 @@
+digraph{
+rankdir=LR
+node[fontname=Helvetica]
+
+node[shape=oval]
+small1
+large1
+small2
+large2
+node[shape=oval]
+red1
+blue1
+red2
+blue2
+node[shape=oval]
+circle1
+box1
+circle2
+box2
+
+node[shape=oval style="filled" fillcolor="#CCFFCC"] 
+M2
+g1[label=o1]
+g2[label=o2]
+g3[label=o3]
+g4[label=o4]
+
+node[shape=oval style=filled fillcolor="#FFFFCC"] 
+o1
+o2
+o3
+o4
+
+
+edge[style=solid color="#000000" constraint=true penwidth=1 dir=none]
+
+M1 -> {o2, o1, o3 o4}
+
+
+edge[style=solid color="#000000" constraint=true penwidth=1 dir=none]
+g1 -> M2
+g2 -> M2
+g3 -> M2
+g4 -> M2
+
+edge[dir=none]
+o1 -> {small1 red1 box1}
+o2 -> {large1 blue1 box1}
+o3 -> {large1 blue1 circle1}
+o4 -> {large1 red1 box1}
+
+edge[dir=none]
+small2 -> g1
+large2 -> {g2 g3 g4}
+red2 -> {g1 g4}
+blue2 -> {g2 g3}
+box2 -> {g1 g2 g4}
+circle2 -> {g3}
+
+edge[style=dashed color="#AA00FF" constraint=true penwidth=2 dir=both]
+
+small1 -> circle2 
+large1 -> box2
+red1 -> blue2
+blue1 -> red2
+box1 -> large2
+circle1 -> small2
+
+
+}

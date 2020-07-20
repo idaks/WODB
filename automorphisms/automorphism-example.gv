@@ -1,0 +1,34 @@
+digraph{
+rankdir=TB
+
+node[shape=oval]
+fig1
+fig2
+fig3
+fig4 
+
+
+red[label=Red shape=plaintext fontcolor=red]
+blue[label=Blue shape=plaintext fontcolor=blue]
+circle[shape=plaintext label=Circle]
+box[shape=plaintext label=Box]
+large[label=LARGE shape=plaintext]
+small[shape=plaintext]
+
+
+fig1 -> {red box small}
+fig2 -> {blue box large}
+fig3 -> {blue circle large}
+fig4 -> {red box large}
+
+edge[constraint=true style=dashed penwidth=1 color=green]
+
+fig1 -> fig3 -> fig1 
+fig2 -> fig4 -> fig2 
+
+edge[color=magenta]
+blue -> red -> blue
+large -> box -> large
+circle -> small -> circle
+}
+

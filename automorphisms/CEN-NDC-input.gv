@@ -1,0 +1,42 @@
+digraph{
+rankdir=LR
+node[shape=circle style=filled fillcolor="#FFFFFF"] 
+node[shape=box style=filled fillcolor="#CCFFCC"] 
+"CEN.US"
+"CEN.Northeast"
+"CEN.Midwest"
+"CEN.West"
+"CEN.South"
+
+node[shape=circle style=filled fillcolor="#FFFFFF"] 
+node[shape=octagon style=filled fillcolor="#FFFFCC"] 
+"NDC.Southeast"
+"NDC.West"
+"NDC.Northeast"
+"NDC.Midwest"
+"NDC.Southwest"
+edge[style=solid color="#000000" constraint=true penwidth=1]
+edge[style=solid color="#000000" constraint=true penwidth=1]
+
+"NDC.US" -> {"NDC.Southwest", "NDC.Southeast", "NDC.West" "NDC.Northeast" "NDC.Midwest"}
+
+edge[style=solid color="#000000" constraint=true penwidth=1]
+
+
+
+edge[style=solid color="#000000" constraint=true penwidth=1 dir=back]
+
+"CEN.South" -> "CEN.US"
+"CEN.West" -> "CEN.US"
+"CEN.Northeast" -> "CEN.US"
+"CEN.Midwest" -> "CEN.US"
+
+edge[style=dotted color="#AA00FF" constraint=true penwidth=3 dir=both]
+
+"NDC.Midwest" -> "CEN.Midwest" 
+"NDC.Northeast" -> "CEN.Northeast" 
+"NDC.Southeast" -> "CEN.South" 
+"NDC.Southwest" -> "CEN.South" 
+"NDC.West" -> "CEN.West" 
+
+}

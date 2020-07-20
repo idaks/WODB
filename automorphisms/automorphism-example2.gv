@@ -1,0 +1,54 @@
+digraph{
+rankdir=LR
+
+node[shape=oval]
+fig1a
+fig2a
+fig3a
+fig4a 
+
+fig1b
+fig2b
+fig3b
+fig4b
+
+
+node[shape=plaintext]
+reda[fontcolor=red]
+bluea[fontcolor=blue]
+circlea
+boxa
+largea
+smalla
+
+redb[fontcolor=red]
+blueb[fontcolor=blue]
+circleb
+boxb
+largeb
+smallb
+
+fig1a -> {reda boxa smalla}
+fig2a -> {bluea boxa largea}
+fig3a -> {bluea circlea largea}
+fig4a -> {reda boxa largea}
+
+fig1b -> {redb boxb smallb}
+fig2b -> {blueb boxb largeb}
+fig3b -> {blueb circleb largeb}
+fig4b -> {redb boxb largeb}
+
+
+
+edge[constraint=true style=dashed penwidth=1 color=green]
+
+# fig1a -> fig3b -> fig1a 
+# fig2a -> fig4b -> fig2a 
+
+
+edge[color=magenta]
+bluea -> redb -> bluea
+largea -> boxb -> largea
+circlea -> smallb -> circlea
+}
+
