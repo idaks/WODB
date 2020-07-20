@@ -1,0 +1,20 @@
+*** Processing file ex1.lp4 ***
+normal(o1) normal(o3) normal(o4) special(o2) unique(o2,green)
+SATISFIABLE
+
+*** Processing file ex2.lp4 ***
+normal(o1) normal(o2) normal(o4) special(o3) unique(o3,circle)
+SATISFIABLE
+
+*** Processing file ex3.lp4 ***
+normal(o2) normal(o4) special(o1) special(o3) unique(o1,small) unique(o3,circle)
+SATISFIABLE
+
+*** Processing file ex4.lp4 ***
+normal(o2) normal(o4) special(o1) special(o3) unique(o1,circle) unique(o3,small)
+SATISFIABLE
+
+*** Processing file ex5.lp4 ***
+normal(o4) special(o1) special(o2) special(o3) unique(o1,small) unique(o2,green) unique(o3,circle)
+SATISFIABLE
+
