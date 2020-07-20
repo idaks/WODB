@@ -1,19 +1,18 @@
-property(fig1, red).
-property(fig1, box).
-property(fig1, small).
+prop(o1, blue).
+prop(o1, large).
+prop(o1, circle).
 
-property(fig2, green).
-property(fig2, box).
-property(fig2, large).
+prop(o2, red).
+prop(o2, large).
+prop(o2, box).
 
-property(fig3, red).
-property(fig3, circle).
-property(fig3, large).
+prop(o3, red).
+prop(o3, small).
+prop(o3, box).
 
-property(fig4, red).
-property(fig4, box).
-property(fig4, large).
-
+prop(o4, blue).
+prop(o4, large).
+prop(o4, box).
 
 
 
