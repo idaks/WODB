@@ -1,4 +1,6 @@
-*** Permuting Example 3 to obtain Example 4 ***
+
+*** Permuting Example 3 ==> creating new Example 4 ***
+
 *** Evaluating UNIQUE QUERY on DB ex1.pl ***
 clingo version 5.2.0
 Reading from unique.pl ...
@@ -69,101 +71,101 @@ clingo version 5.2.0
 Reading from automorphism.pl ...
 Solving...
 Answer: 1
-m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(red,red) m(box,box) m(large,large) m(green,green)
+m(t(o1,red),t(o1,red)) m(t(o1,large),t(o1,box)) m(t(o1,box),t(o1,large)) m(t(o2,green),t(o2,green)) m(t(o2,large),t(o2,box)) m(t(o2,box),t(o2,large)) m(t(o3,red),t(o3,red)) m(t(o3,large),t(o3,box)) m(t(o3,box),t(o3,large)) m(t(o4,red),t(o4,red)) m(t(o4,large),t(o4,box)) m(t(o4,box),t(o4,large)) m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(red,red) m(large,box) m(box,large) m(green,green)
 Answer: 2
-m(o1,o1) m(o2,o2) m(o4,o3) m(o3,o4) m(red,red) m(box,box) m(large,large) m(green,green)
+m(t(o1,red),t(o1,red)) m(t(o1,large),t(o1,box)) m(t(o1,box),t(o1,large)) m(t(o2,green),t(o2,green)) m(t(o2,large),t(o2,box)) m(t(o2,box),t(o2,large)) m(t(o4,red),t(o3,red)) m(t(o4,large),t(o3,box)) m(t(o4,box),t(o3,large)) m(t(o3,red),t(o4,red)) m(t(o3,large),t(o4,box)) m(t(o3,box),t(o4,large)) m(o1,o1) m(o2,o2) m(o4,o3) m(o3,o4) m(red,red) m(large,box) m(box,large) m(green,green)
 Answer: 3
-m(o3,o1) m(o2,o2) m(o4,o3) m(o1,o4) m(red,red) m(box,box) m(large,large) m(green,green)
+m(t(o3,red),t(o1,red)) m(t(o3,large),t(o1,box)) m(t(o3,box),t(o1,large)) m(t(o2,green),t(o2,green)) m(t(o2,large),t(o2,box)) m(t(o2,box),t(o2,large)) m(t(o4,red),t(o3,red)) m(t(o4,large),t(o3,box)) m(t(o4,box),t(o3,large)) m(t(o1,red),t(o4,red)) m(t(o1,large),t(o4,box)) m(t(o1,box),t(o4,large)) m(o3,o1) m(o2,o2) m(o4,o3) m(o1,o4) m(red,red) m(large,box) m(box,large) m(green,green)
 Answer: 4
-m(o4,o1) m(o2,o2) m(o3,o3) m(o1,o4) m(red,red) m(box,box) m(large,large) m(green,green)
+m(t(o4,red),t(o1,red)) m(t(o4,large),t(o1,box)) m(t(o4,box),t(o1,large)) m(t(o2,green),t(o2,green)) m(t(o2,large),t(o2,box)) m(t(o2,box),t(o2,large)) m(t(o3,red),t(o3,red)) m(t(o3,large),t(o3,box)) m(t(o3,box),t(o3,large)) m(t(o1,red),t(o4,red)) m(t(o1,large),t(o4,box)) m(t(o1,box),t(o4,large)) m(o4,o1) m(o2,o2) m(o3,o3) m(o1,o4) m(red,red) m(large,box) m(box,large) m(green,green)
 Answer: 5
-m(o3,o1) m(o2,o2) m(o1,o3) m(o4,o4) m(red,red) m(box,box) m(large,large) m(green,green)
+m(t(o3,red),t(o1,red)) m(t(o3,large),t(o1,box)) m(t(o3,box),t(o1,large)) m(t(o2,green),t(o2,green)) m(t(o2,large),t(o2,box)) m(t(o2,box),t(o2,large)) m(t(o1,red),t(o3,red)) m(t(o1,large),t(o3,box)) m(t(o1,box),t(o3,large)) m(t(o4,red),t(o4,red)) m(t(o4,large),t(o4,box)) m(t(o4,box),t(o4,large)) m(o3,o1) m(o2,o2) m(o1,o3) m(o4,o4) m(red,red) m(large,box) m(box,large) m(green,green)
 Answer: 6
-m(o4,o1) m(o2,o2) m(o1,o3) m(o3,o4) m(red,red) m(box,box) m(large,large) m(green,green)
+m(t(o4,red),t(o1,red)) m(t(o4,large),t(o1,box)) m(t(o4,box),t(o1,large)) m(t(o2,green),t(o2,green)) m(t(o2,large),t(o2,box)) m(t(o2,box),t(o2,large)) m(t(o1,red),t(o3,red)) m(t(o1,large),t(o3,box)) m(t(o1,box),t(o3,large)) m(t(o3,red),t(o4,red)) m(t(o3,large),t(o4,box)) m(t(o3,box),t(o4,large)) m(o4,o1) m(o2,o2) m(o1,o3) m(o3,o4) m(red,red) m(large,box) m(box,large) m(green,green)
 Answer: 7
-m(o4,o1) m(o2,o2) m(o1,o3) m(o3,o4) m(red,red) m(large,box) m(box,large) m(green,green)
+m(t(o1,red),t(o1,red)) m(t(o1,box),t(o1,box)) m(t(o1,large),t(o1,large)) m(t(o2,green),t(o2,green)) m(t(o2,box),t(o2,box)) m(t(o2,large),t(o2,large)) m(t(o4,red),t(o3,red)) m(t(o4,box),t(o3,box)) m(t(o4,large),t(o3,large)) m(t(o3,red),t(o4,red)) m(t(o3,box),t(o4,box)) m(t(o3,large),t(o4,large)) m(o1,o1) m(o2,o2) m(o4,o3) m(o3,o4) m(red,red) m(box,box) m(large,large) m(green,green)
 Answer: 8
-m(o4,o1) m(o2,o2) m(o3,o3) m(o1,o4) m(red,red) m(large,box) m(box,large) m(green,green)
+m(t(o1,red),t(o1,red)) m(t(o1,box),t(o1,box)) m(t(o1,large),t(o1,large)) m(t(o2,green),t(o2,green)) m(t(o2,box),t(o2,box)) m(t(o2,large),t(o2,large)) m(t(o3,red),t(o3,red)) m(t(o3,box),t(o3,box)) m(t(o3,large),t(o3,large)) m(t(o4,red),t(o4,red)) m(t(o4,box),t(o4,box)) m(t(o4,large),t(o4,large)) m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(red,red) m(box,box) m(large,large) m(green,green)
 Answer: 9
-m(o1,o1) m(o2,o2) m(o4,o3) m(o3,o4) m(red,red) m(large,box) m(box,large) m(green,green)
+m(t(o3,red),t(o1,red)) m(t(o3,box),t(o1,box)) m(t(o3,large),t(o1,large)) m(t(o2,green),t(o2,green)) m(t(o2,box),t(o2,box)) m(t(o2,large),t(o2,large)) m(t(o4,red),t(o3,red)) m(t(o4,box),t(o3,box)) m(t(o4,large),t(o3,large)) m(t(o1,red),t(o4,red)) m(t(o1,box),t(o4,box)) m(t(o1,large),t(o4,large)) m(o3,o1) m(o2,o2) m(o4,o3) m(o1,o4) m(red,red) m(box,box) m(large,large) m(green,green)
 Answer: 10
-m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(red,red) m(large,box) m(box,large) m(green,green)
+m(t(o4,red),t(o1,red)) m(t(o4,box),t(o1,box)) m(t(o4,large),t(o1,large)) m(t(o2,green),t(o2,green)) m(t(o2,box),t(o2,box)) m(t(o2,large),t(o2,large)) m(t(o3,red),t(o3,red)) m(t(o3,box),t(o3,box)) m(t(o3,large),t(o3,large)) m(t(o1,red),t(o4,red)) m(t(o1,box),t(o4,box)) m(t(o1,large),t(o4,large)) m(o4,o1) m(o2,o2) m(o3,o3) m(o1,o4) m(red,red) m(box,box) m(large,large) m(green,green)
 Answer: 11
-m(o3,o1) m(o2,o2) m(o4,o3) m(o1,o4) m(red,red) m(large,box) m(box,large) m(green,green)
+m(t(o3,red),t(o1,red)) m(t(o3,box),t(o1,box)) m(t(o3,large),t(o1,large)) m(t(o2,green),t(o2,green)) m(t(o2,box),t(o2,box)) m(t(o2,large),t(o2,large)) m(t(o1,red),t(o3,red)) m(t(o1,box),t(o3,box)) m(t(o1,large),t(o3,large)) m(t(o4,red),t(o4,red)) m(t(o4,box),t(o4,box)) m(t(o4,large),t(o4,large)) m(o3,o1) m(o2,o2) m(o1,o3) m(o4,o4) m(red,red) m(box,box) m(large,large) m(green,green)
 Answer: 12
-m(o3,o1) m(o2,o2) m(o1,o3) m(o4,o4) m(red,red) m(large,box) m(box,large) m(green,green)
+m(t(o4,red),t(o1,red)) m(t(o4,box),t(o1,box)) m(t(o4,large),t(o1,large)) m(t(o2,green),t(o2,green)) m(t(o2,box),t(o2,box)) m(t(o2,large),t(o2,large)) m(t(o1,red),t(o3,red)) m(t(o1,box),t(o3,box)) m(t(o1,large),t(o3,large)) m(t(o3,red),t(o4,red)) m(t(o3,box),t(o4,box)) m(t(o3,large),t(o4,large)) m(o4,o1) m(o2,o2) m(o1,o3) m(o3,o4) m(red,red) m(box,box) m(large,large) m(green,green)
 SATISFIABLE
 
 Models       : 12
 Calls        : 1
-Time         : 0.004s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 0.004s
+Time         : 0.027s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.027s
 
 *** Evaluating AUTOMORPHISM on DB ex2.pl ***
 clingo version 5.2.0
 Reading from automorphism.pl ...
 Solving...
 Answer: 1
-m(o4,o1) m(o2,o2) m(o3,o3) m(o1,o4) m(red,red) m(box,box) m(large,large) m(blue,blue) m(circle,circle)
+m(t(o4,red),t(o1,red)) m(t(o4,box),t(o1,box)) m(t(o4,large),t(o1,large)) m(t(o2,blue),t(o2,blue)) m(t(o2,box),t(o2,box)) m(t(o2,large),t(o2,large)) m(t(o3,blue),t(o3,blue)) m(t(o3,circle),t(o3,circle)) m(t(o3,large),t(o3,large)) m(t(o1,red),t(o4,red)) m(t(o1,box),t(o4,box)) m(t(o1,large),t(o4,large)) m(o4,o1) m(o2,o2) m(o3,o3) m(o1,o4) m(red,red) m(box,box) m(large,large) m(blue,blue) m(circle,circle)
 Answer: 2
-m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(red,red) m(box,box) m(large,large) m(blue,blue) m(circle,circle)
+m(t(o1,red),t(o1,red)) m(t(o1,box),t(o1,box)) m(t(o1,large),t(o1,large)) m(t(o2,blue),t(o2,blue)) m(t(o2,box),t(o2,box)) m(t(o2,large),t(o2,large)) m(t(o3,blue),t(o3,blue)) m(t(o3,circle),t(o3,circle)) m(t(o3,large),t(o3,large)) m(t(o4,red),t(o4,red)) m(t(o4,box),t(o4,box)) m(t(o4,large),t(o4,large)) m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(red,red) m(box,box) m(large,large) m(blue,blue) m(circle,circle)
 SATISFIABLE
 
 Models       : 2
 Calls        : 1
-Time         : 0.005s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 0.005s
+Time         : 0.028s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.028s
 
 *** Evaluating AUTOMORPHISM on DB ex3.pl ***
 clingo version 5.2.0
 Reading from automorphism.pl ...
 Solving...
 Answer: 1
-m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(red,red) m(box,box) m(small,small) m(blue,blue) m(large,large) m(circle,circle)
+m(t(o3,blue),t(o1,red)) m(t(o3,large),t(o1,box)) m(t(o3,circle),t(o1,small)) m(t(o4,red),t(o2,blue)) m(t(o4,large),t(o2,box)) m(t(o4,box),t(o2,large)) m(t(o1,red),t(o3,blue)) m(t(o1,small),t(o3,circle)) m(t(o1,box),t(o3,large)) m(t(o2,blue),t(o4,red)) m(t(o2,large),t(o4,box)) m(t(o2,box),t(o4,large)) m(o3,o1) m(o4,o2) m(o1,o3) m(o2,o4) m(blue,red) m(large,box) m(circle,small) m(red,blue) m(box,large) m(small,circle)
 Answer: 2
-m(o3,o1) m(o4,o2) m(o1,o3) m(o2,o4) m(blue,red) m(large,box) m(circle,small) m(red,blue) m(box,large) m(small,circle)
+m(t(o1,red),t(o1,red)) m(t(o1,box),t(o1,box)) m(t(o1,small),t(o1,small)) m(t(o2,blue),t(o2,blue)) m(t(o2,box),t(o2,box)) m(t(o2,large),t(o2,large)) m(t(o3,blue),t(o3,blue)) m(t(o3,circle),t(o3,circle)) m(t(o3,large),t(o3,large)) m(t(o4,red),t(o4,red)) m(t(o4,box),t(o4,box)) m(t(o4,large),t(o4,large)) m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(red,red) m(box,box) m(small,small) m(blue,blue) m(large,large) m(circle,circle)
 SATISFIABLE
 
 Models       : 2
 Calls        : 1
-Time         : 0.006s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 0.006s
+Time         : 0.032s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.032s
 
 *** Evaluating AUTOMORPHISM on DB ex4.pl ***
 clingo version 5.2.0
 Reading from automorphism.pl ...
 Solving...
 Answer: 1
-m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(blue,blue) m(large,large) m(circle,circle) m(red,red) m(box,box) m(small,small)
+m(t(o3,red),t(o1,blue)) m(t(o3,box),t(o1,large)) m(t(o3,small),t(o1,circle)) m(t(o4,blue),t(o2,red)) m(t(o4,box),t(o2,large)) m(t(o4,large),t(o2,box)) m(t(o1,blue),t(o3,red)) m(t(o1,circle),t(o3,small)) m(t(o1,large),t(o3,box)) m(t(o2,red),t(o4,blue)) m(t(o2,box),t(o4,large)) m(t(o2,large),t(o4,box)) m(o3,o1) m(o4,o2) m(o1,o3) m(o2,o4) m(red,blue) m(box,large) m(small,circle) m(blue,red) m(large,box) m(circle,small)
 Answer: 2
-m(o3,o1) m(o4,o2) m(o1,o3) m(o2,o4) m(red,blue) m(box,large) m(small,circle) m(blue,red) m(large,box) m(circle,small)
+m(t(o1,blue),t(o1,blue)) m(t(o1,large),t(o1,large)) m(t(o1,circle),t(o1,circle)) m(t(o2,red),t(o2,red)) m(t(o2,large),t(o2,large)) m(t(o2,box),t(o2,box)) m(t(o3,red),t(o3,red)) m(t(o3,small),t(o3,small)) m(t(o3,box),t(o3,box)) m(t(o4,blue),t(o4,blue)) m(t(o4,large),t(o4,large)) m(t(o4,box),t(o4,box)) m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(blue,blue) m(large,large) m(circle,circle) m(red,red) m(box,box) m(small,small)
 SATISFIABLE
 
 Models       : 2
 Calls        : 1
-Time         : 0.006s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 0.006s
+Time         : 0.032s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.032s
 
 *** Evaluating AUTOMORPHISM on DB ex5.pl ***
 clingo version 5.2.0
 Reading from automorphism.pl ...
 Solving...
 Answer: 1
-m(o3,o1) m(o2,o2) m(o1,o3) m(o4,o4) m(red,red) m(large,box) m(circle,small) m(green,green) m(box,large) m(small,circle)
+m(t(o1,box),t(o1,red)) m(t(o1,red),t(o1,box)) m(t(o1,small),t(o1,small)) m(t(o3,circle),t(o2,green)) m(t(o3,red),t(o2,box)) m(t(o3,large),t(o2,large)) m(t(o2,box),t(o3,red)) m(t(o2,green),t(o3,circle)) m(t(o2,large),t(o3,large)) m(t(o4,box),t(o4,red)) m(t(o4,red),t(o4,box)) m(t(o4,large),t(o4,large)) m(o1,o1) m(o3,o2) m(o2,o3) m(o4,o4) m(box,red) m(red,box) m(small,small) m(circle,green) m(large,large) m(green,circle)
 Answer: 2
-m(o2,o1) m(o3,o2) m(o1,o3) m(o4,o4) m(box,red) m(large,box) m(green,small) m(circle,green) m(red,large) m(small,circle)
+m(t(o3,large),t(o1,red)) m(t(o3,red),t(o1,box)) m(t(o3,circle),t(o1,small)) m(t(o1,small),t(o2,green)) m(t(o1,red),t(o2,box)) m(t(o1,box),t(o2,large)) m(t(o2,large),t(o3,red)) m(t(o2,green),t(o3,circle)) m(t(o2,box),t(o3,large)) m(t(o4,large),t(o4,red)) m(t(o4,red),t(o4,box)) m(t(o4,box),t(o4,large)) m(o3,o1) m(o1,o2) m(o2,o3) m(o4,o4) m(large,red) m(red,box) m(circle,small) m(small,green) m(box,large) m(green,circle)
 Answer: 3
-m(o2,o1) m(o1,o2) m(o3,o3) m(o4,o4) m(large,red) m(box,box) m(green,small) m(small,green) m(red,large) m(circle,circle)
+m(t(o2,box),t(o1,red)) m(t(o2,large),t(o1,box)) m(t(o2,green),t(o1,small)) m(t(o3,circle),t(o2,green)) m(t(o3,large),t(o2,box)) m(t(o3,red),t(o2,large)) m(t(o1,box),t(o3,red)) m(t(o1,small),t(o3,circle)) m(t(o1,red),t(o3,large)) m(t(o4,box),t(o4,red)) m(t(o4,large),t(o4,box)) m(t(o4,red),t(o4,large)) m(o2,o1) m(o3,o2) m(o1,o3) m(o4,o4) m(box,red) m(large,box) m(green,small) m(circle,green) m(red,large) m(small,circle)
 Answer: 4
-m(o3,o1) m(o1,o2) m(o2,o3) m(o4,o4) m(large,red) m(red,box) m(circle,small) m(small,green) m(box,large) m(green,circle)
+m(t(o2,large),t(o1,red)) m(t(o2,box),t(o1,box)) m(t(o2,green),t(o1,small)) m(t(o1,small),t(o2,green)) m(t(o1,box),t(o2,box)) m(t(o1,red),t(o2,large)) m(t(o3,large),t(o3,red)) m(t(o3,circle),t(o3,circle)) m(t(o3,red),t(o3,large)) m(t(o4,large),t(o4,red)) m(t(o4,box),t(o4,box)) m(t(o4,red),t(o4,large)) m(o2,o1) m(o1,o2) m(o3,o3) m(o4,o4) m(large,red) m(box,box) m(green,small) m(small,green) m(red,large) m(circle,circle)
 Answer: 5
-m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(red,red) m(box,box) m(small,small) m(green,green) m(large,large) m(circle,circle)
+m(t(o3,red),t(o1,red)) m(t(o3,large),t(o1,box)) m(t(o3,circle),t(o1,small)) m(t(o2,green),t(o2,green)) m(t(o2,large),t(o2,box)) m(t(o2,box),t(o2,large)) m(t(o1,red),t(o3,red)) m(t(o1,small),t(o3,circle)) m(t(o1,box),t(o3,large)) m(t(o4,red),t(o4,red)) m(t(o4,large),t(o4,box)) m(t(o4,box),t(o4,large)) m(o3,o1) m(o2,o2) m(o1,o3) m(o4,o4) m(red,red) m(large,box) m(circle,small) m(green,green) m(box,large) m(small,circle)
 Answer: 6
-m(o1,o1) m(o3,o2) m(o2,o3) m(o4,o4) m(box,red) m(red,box) m(small,small) m(circle,green) m(large,large) m(green,circle)
+m(t(o1,red),t(o1,red)) m(t(o1,box),t(o1,box)) m(t(o1,small),t(o1,small)) m(t(o2,green),t(o2,green)) m(t(o2,box),t(o2,box)) m(t(o2,large),t(o2,large)) m(t(o3,red),t(o3,red)) m(t(o3,circle),t(o3,circle)) m(t(o3,large),t(o3,large)) m(t(o4,red),t(o4,red)) m(t(o4,box),t(o4,box)) m(t(o4,large),t(o4,large)) m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(red,red) m(box,box) m(small,small) m(green,green) m(large,large) m(circle,circle)
 SATISFIABLE
 
 Models       : 6
 Calls        : 1
-Time         : 0.005s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 0.005s
+Time         : 0.032s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.032s
 

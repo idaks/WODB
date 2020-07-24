@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "*** Permuting Example 3 to obtain Example 4 ***" 
 source permute.sh
 
 for f  in ex*.pl

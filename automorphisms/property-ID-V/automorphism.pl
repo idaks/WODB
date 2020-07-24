@@ -2,7 +2,9 @@
 % s.t. e(X,Y) <=> e( f(X), f(Y) ) for all X,Y in V.
 
 % EDGES: 
-e(X,Y) :- prop(X,Y).
+% e(X,Y) :- prop(X,Y).
+e(t(X,Y), X) :- prop(X,Y).
+e(t(X,Y), Y) :- prop(X,Y).
 
 % VERTICES:
 v(X) :- e(X,_).
