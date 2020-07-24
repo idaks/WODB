@@ -2,18 +2,18 @@
 
 source permute.sh
 
-for f  in ex*.pl
+for db in ex*.pl
 do
-    echo "*** Evaluating UNIQUE QUERY on DB $f ***"
-    clingo -n0 unique.pl $f 
+    echo "*** Evaluating UNIQUE QUERY on DB $db ***"
+    clingo -n0 $db unique.pl 
     echo
 done
 
 
-for f  in ex*.pl
+for db in ex*.pl
 do
-    echo "*** Evaluating AUTOMORPHISM on DB $f ***"
-    clingo -n0 automorphism.pl $f 
+    echo "*** Evaluating AUTOMORPHISM on database $db ***"
+    clingo -n0 $db db2edges.pl automorphism.pl 
     echo
 done
 
