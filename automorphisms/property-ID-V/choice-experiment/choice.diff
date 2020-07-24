@@ -1,0 +1,23 @@
+3,4c3,4
+< Time         : 0.109s (Solving: 0.11s 1st Model: 0.00s Unsat: 0.00s)
+< CPU Time     : 0.108s
+---
+> Time         : 0.099s (Solving: 0.10s 1st Model: 0.00s Unsat: 0.00s)
+> CPU Time     : 0.099s
+19,23c19,22
+< Rules        : 52       (Original: 20)
+< Atoms        : 36      
+< Disjunctions : 0        (Original: 16)
+< Bodies       : 33       (Original: 1)
+< Equivalences : 48       (Atom=Atom: 0 Body=Body: 0 Other: 48)
+---
+> Rules        : 20      
+>   Choice     : 16      
+> Atoms        : 20      
+> Bodies       : 1       
+25,26c24,25
+< Variables    : 32       (Eliminated:    0 Frozen:    0)
+< Constraints  : 64       (Binary: 100.0% Ternary:   0.0% Other:   0.0%)
+---
+> Variables    : 16       (Eliminated:    0 Frozen:    0)
+> Constraints  : 0        (Binary:   0.0% Ternary:   0.0% Other:   0.0%)

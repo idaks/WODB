@@ -1,7 +1,7 @@
 *** Permuting Example 3 to obtain Example 4 ***
-*** Evaluating UNIQUE QUERY on DB ex1.lp4 ***
+*** Evaluating UNIQUE QUERY on DB ex1.pl ***
 clingo version 5.2.0
-Reading from unique.lp4 ...
+Reading from unique.pl ...
 Solving...
 Answer: 1
 normal(o1) normal(o3) normal(o4) special(o2) unique(o2,green)
@@ -12,9 +12,9 @@ Calls        : 1
 Time         : 0.001s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
 CPU Time     : 0.001s
 
-*** Evaluating UNIQUE QUERY on DB ex2.lp4 ***
+*** Evaluating UNIQUE QUERY on DB ex2.pl ***
 clingo version 5.2.0
-Reading from unique.lp4 ...
+Reading from unique.pl ...
 Solving...
 Answer: 1
 normal(o1) normal(o2) normal(o4) special(o3) unique(o3,circle)
@@ -25,9 +25,9 @@ Calls        : 1
 Time         : 0.001s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
 CPU Time     : 0.001s
 
-*** Evaluating UNIQUE QUERY on DB ex3.lp4 ***
+*** Evaluating UNIQUE QUERY on DB ex3.pl ***
 clingo version 5.2.0
-Reading from unique.lp4 ...
+Reading from unique.pl ...
 Solving...
 Answer: 1
 normal(o2) normal(o4) special(o1) special(o3) unique(o1,small) unique(o3,circle)
@@ -38,9 +38,9 @@ Calls        : 1
 Time         : 0.001s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
 CPU Time     : 0.001s
 
-*** Evaluating UNIQUE QUERY on DB ex4.lp4 ***
+*** Evaluating UNIQUE QUERY on DB ex4.pl ***
 clingo version 5.2.0
-Reading from unique.lp4 ...
+Reading from unique.pl ...
 Solving...
 Answer: 1
 normal(o2) normal(o4) special(o1) special(o3) unique(o1,circle) unique(o3,small)
@@ -51,9 +51,9 @@ Calls        : 1
 Time         : 0.001s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
 CPU Time     : 0.001s
 
-*** Evaluating UNIQUE QUERY on DB ex5.lp4 ***
+*** Evaluating UNIQUE QUERY on DB ex5.pl ***
 clingo version 5.2.0
-Reading from unique.lp4 ...
+Reading from unique.pl ...
 Solving...
 Answer: 1
 normal(o4) special(o1) special(o2) special(o3) unique(o1,small) unique(o2,green) unique(o3,circle)
@@ -64,34 +64,34 @@ Calls        : 1
 Time         : 0.001s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
 CPU Time     : 0.001s
 
-*** Evaluating AUTOMORPHISM on DB ex1.lp4 ***
+*** Evaluating AUTOMORPHISM on DB ex1.pl ***
 clingo version 5.2.0
-Reading from automorphism.lp4 ...
+Reading from automorphism.pl ...
 Solving...
 Answer: 1
-m(o3,o1) m(o2,o2) m(o4,o3) m(o1,o4) m(red,red) m(box,box) m(large,large) m(green,green)
-Answer: 2
-m(o3,o1) m(o2,o2) m(o1,o3) m(o4,o4) m(red,red) m(box,box) m(large,large) m(green,green)
-Answer: 3
-m(o3,o1) m(o2,o2) m(o1,o3) m(o4,o4) m(red,red) m(large,box) m(box,large) m(green,green)
-Answer: 4
-m(o3,o1) m(o2,o2) m(o4,o3) m(o1,o4) m(red,red) m(large,box) m(box,large) m(green,green)
-Answer: 5
 m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(red,red) m(box,box) m(large,large) m(green,green)
-Answer: 6
+Answer: 2
 m(o1,o1) m(o2,o2) m(o4,o3) m(o3,o4) m(red,red) m(box,box) m(large,large) m(green,green)
-Answer: 7
-m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(red,red) m(large,box) m(box,large) m(green,green)
-Answer: 8
-m(o1,o1) m(o2,o2) m(o4,o3) m(o3,o4) m(red,red) m(large,box) m(box,large) m(green,green)
-Answer: 9
+Answer: 3
+m(o3,o1) m(o2,o2) m(o4,o3) m(o1,o4) m(red,red) m(box,box) m(large,large) m(green,green)
+Answer: 4
 m(o4,o1) m(o2,o2) m(o3,o3) m(o1,o4) m(red,red) m(box,box) m(large,large) m(green,green)
-Answer: 10
+Answer: 5
+m(o3,o1) m(o2,o2) m(o1,o3) m(o4,o4) m(red,red) m(box,box) m(large,large) m(green,green)
+Answer: 6
 m(o4,o1) m(o2,o2) m(o1,o3) m(o3,o4) m(red,red) m(box,box) m(large,large) m(green,green)
-Answer: 11
-m(o4,o1) m(o2,o2) m(o3,o3) m(o1,o4) m(red,red) m(large,box) m(box,large) m(green,green)
-Answer: 12
+Answer: 7
 m(o4,o1) m(o2,o2) m(o1,o3) m(o3,o4) m(red,red) m(large,box) m(box,large) m(green,green)
+Answer: 8
+m(o4,o1) m(o2,o2) m(o3,o3) m(o1,o4) m(red,red) m(large,box) m(box,large) m(green,green)
+Answer: 9
+m(o1,o1) m(o2,o2) m(o4,o3) m(o3,o4) m(red,red) m(large,box) m(box,large) m(green,green)
+Answer: 10
+m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(red,red) m(large,box) m(box,large) m(green,green)
+Answer: 11
+m(o3,o1) m(o2,o2) m(o4,o3) m(o1,o4) m(red,red) m(large,box) m(box,large) m(green,green)
+Answer: 12
+m(o3,o1) m(o2,o2) m(o1,o3) m(o4,o4) m(red,red) m(large,box) m(box,large) m(green,green)
 SATISFIABLE
 
 Models       : 12
@@ -99,9 +99,9 @@ Calls        : 1
 Time         : 0.004s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
 CPU Time     : 0.004s
 
-*** Evaluating AUTOMORPHISM on DB ex2.lp4 ***
+*** Evaluating AUTOMORPHISM on DB ex2.pl ***
 clingo version 5.2.0
-Reading from automorphism.lp4 ...
+Reading from automorphism.pl ...
 Solving...
 Answer: 1
 m(o4,o1) m(o2,o2) m(o3,o3) m(o1,o4) m(red,red) m(box,box) m(large,large) m(blue,blue) m(circle,circle)
@@ -114,9 +114,9 @@ Calls        : 1
 Time         : 0.005s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
 CPU Time     : 0.005s
 
-*** Evaluating AUTOMORPHISM on DB ex3.lp4 ***
+*** Evaluating AUTOMORPHISM on DB ex3.pl ***
 clingo version 5.2.0
-Reading from automorphism.lp4 ...
+Reading from automorphism.pl ...
 Solving...
 Answer: 1
 m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(red,red) m(box,box) m(small,small) m(blue,blue) m(large,large) m(circle,circle)
@@ -126,12 +126,12 @@ SATISFIABLE
 
 Models       : 2
 Calls        : 1
-Time         : 0.005s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 0.005s
+Time         : 0.006s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.006s
 
-*** Evaluating AUTOMORPHISM on DB ex4.lp4 ***
+*** Evaluating AUTOMORPHISM on DB ex4.pl ***
 clingo version 5.2.0
-Reading from automorphism.lp4 ...
+Reading from automorphism.pl ...
 Solving...
 Answer: 1
 m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(blue,blue) m(large,large) m(circle,circle) m(red,red) m(box,box) m(small,small)
@@ -144,18 +144,18 @@ Calls        : 1
 Time         : 0.006s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
 CPU Time     : 0.006s
 
-*** Evaluating AUTOMORPHISM on DB ex5.lp4 ***
+*** Evaluating AUTOMORPHISM on DB ex5.pl ***
 clingo version 5.2.0
-Reading from automorphism.lp4 ...
+Reading from automorphism.pl ...
 Solving...
 Answer: 1
 m(o3,o1) m(o2,o2) m(o1,o3) m(o4,o4) m(red,red) m(large,box) m(circle,small) m(green,green) m(box,large) m(small,circle)
 Answer: 2
 m(o2,o1) m(o3,o2) m(o1,o3) m(o4,o4) m(box,red) m(large,box) m(green,small) m(circle,green) m(red,large) m(small,circle)
 Answer: 3
-m(o3,o1) m(o1,o2) m(o2,o3) m(o4,o4) m(large,red) m(red,box) m(circle,small) m(small,green) m(box,large) m(green,circle)
-Answer: 4
 m(o2,o1) m(o1,o2) m(o3,o3) m(o4,o4) m(large,red) m(box,box) m(green,small) m(small,green) m(red,large) m(circle,circle)
+Answer: 4
+m(o3,o1) m(o1,o2) m(o2,o3) m(o4,o4) m(large,red) m(red,box) m(circle,small) m(small,green) m(box,large) m(green,circle)
 Answer: 5
 m(o1,o1) m(o2,o2) m(o3,o3) m(o4,o4) m(red,red) m(box,box) m(small,small) m(green,green) m(large,large) m(circle,circle)
 Answer: 6
@@ -164,6 +164,6 @@ SATISFIABLE
 
 Models       : 6
 Calls        : 1
-Time         : 0.006s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 0.006s
+Time         : 0.005s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.005s
 

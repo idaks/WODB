@@ -10,7 +10,6 @@ special(X) :- unique(X,_).
 normal(X) :- prop(X,_), not special(X).
 
 
-
 #show unique/2.
 #show special/1.
 #show normal/1.
