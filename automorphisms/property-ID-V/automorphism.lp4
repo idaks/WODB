@@ -1,0 +1,25 @@
+% A graph automorphism is a bijection m: V -> V, s.t. e(X,Y) <=> e(f(X), f(Y)) for all X,Y in V.
+
+% Edges: 
+e(X,Y) :- prop(X,Y).
+
+% Vertices:
+v(X) :- e(X,_).
+v(X) :- e(_,X).
+
+% The map m/2 is or isn't
+% 0 {f(X,Y)} 1 :- v(X), v(Y).
+m(X,Y) ; nm(X,Y) :- v(X), v(Y).
+
+:- e(X1,X2), m(X1,Y1), m(X2,Y2), not e(Y1,Y2).
+:- e(Y1,Y2), m(X1,Y1), m(X2,Y2), not e(X1,X2).
+
+% used1(X) :- vmap(X,_).
+% :- gnode(X), not used1(X).
+% :- vmap(X,Y),vmap(X,Z),Y!=Z.
+% :- vmap(Y,X),vmap(Z,X),Y!=Z.
+
+:- v(X), #count {Y: m(X,Y)} != 1.
+:- v(X), #count {Y: m(Y,X)} != 1.
+
+#show m/2.
