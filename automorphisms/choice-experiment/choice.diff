@@ -1,9 +1,9 @@
 3,4c3,4
-< Time         : 50.635s (Solving: 50.63s 1st Model: 0.00s Unsat: 0.00s)
-< CPU Time     : 49.847s
+< Time         : 67.498s (Solving: 67.50s 1st Model: 0.00s Unsat: 0.00s)
+< CPU Time     : 65.189s
 ---
-> Time         : 43.409s (Solving: 43.41s 1st Model: 0.00s Unsat: 0.00s)
-> CPU Time     : 43.128s
+> Time         : 65.001s (Solving: 65.00s 1st Model: 0.00s Unsat: 0.00s)
+> CPU Time     : 64.448s
 19,23c19,22
 < Rules        : 80       (Original: 30)
 < Atoms        : 55      

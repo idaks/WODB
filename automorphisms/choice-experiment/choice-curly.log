@@ -1,7 +1,7 @@
 Models       : 33554432
 Calls        : 1
-Time         : 43.409s (Solving: 43.41s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 43.128s
+Time         : 65.001s (Solving: 65.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 64.448s
 Choices      : 33554431
 Conflicts    : 0        (Analyzed: 0)
 Restarts     : 0       
