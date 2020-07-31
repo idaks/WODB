@@ -3,20 +3,20 @@ rankdir=LR
 node[fontname=Helvetica]
 
 node[shape=oval]
-small1
-large1
-small2
-large2
+small1[label=small]
+large1[label=large]
+small2[label=small]
+large2[label=large]
 node[shape=oval]
-red1
-blue1
-red2
-blue2
+red1[label=red]
+blue1[label=blue]
+red2[label=red]
+blue2[label=blue]
 node[shape=oval]
-circle1
-box1
-circle2
-box2
+circle1[label=circle]
+box1[label=box]
+circle2[label=circle]
+box2[label=box]
 
 node[shape=oval style="filled" fillcolor="#CCFFCC"] 
 M2
