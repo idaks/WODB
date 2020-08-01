@@ -17,4 +17,4 @@ v(X) :- e(_,X).
 :- v(X), #count {Y: m(X,Y)} != 1.
 :- v(X), #count {Y: m(Y,X)} != 1.
 
-#show m/2.
+%#show m/2.
